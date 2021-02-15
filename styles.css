@@ -1,17 +1,37 @@
 /* USE CSS LAYOUTS HERE */
+body {
+  margin: 0px;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
 .header {
+  background-color: blueviolet;
+}
 
+.main-flex {
+  background-color: brown;
+  flex: 1;
 }
 
 .main {
-
+  background-color: brown;
 }
 
 .footer-grid {
-
+  background-color: chartreuse;
 }
 
 .footer-flex {
-
+  background-color: chartreuse;
 }
